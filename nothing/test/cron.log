@@ -1,0 +1,188 @@
+Traceback (most recent call last):
+  File "auto.py", line 2, in <module>
+    import pyautogui
+  File "/home/gaon/.local/lib/python3.6/site-packages/pyautogui/__init__.py", line 152, in <module>
+    from . import _pyautogui_x11 as platformModule
+  File "/home/gaon/.local/lib/python3.6/site-packages/pyautogui/_pyautogui_x11.py", line 160, in <module>
+    _display = Display(os.environ['DISPLAY'])
+  File "/usr/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'DISPLAY'
+Traceback (most recent call last):
+  File "auto.py", line 2, in <module>
+    import pyautogui
+  File "/home/gaon/.local/lib/python3.6/site-packages/pyautogui/__init__.py", line 152, in <module>
+    from . import _pyautogui_x11 as platformModule
+  File "/home/gaon/.local/lib/python3.6/site-packages/pyautogui/_pyautogui_x11.py", line 160, in <module>
+    _display = Display(os.environ['DISPLAY'])
+  File "/usr/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'DISPLAY'
+Traceback (most recent call last):
+  File "auto.py", line 21, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[2]/div/div[2]/div[1]/div/table/tr[1]/td[4]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 23, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 17, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[1]/div[2]/div[8]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 19, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[2]/div/div[1]/ul/li[2]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 15, in <module>
+    driver.find_element_by_xpath('//*[@id="apply"]/div/div[2]/a[1]/button').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 241, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: unexpected alert open: {Alert text : 로그인에 성공하셨습니다.}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 19, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[2]/div/div[1]/ul/li[2]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 9, in <module>
+    driver.find_element_by_xpath('//*[@id="meal"]/div/header/nav/button').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 21, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/di'
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 21, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/di'
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 24, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div[2]/div/div[2]/div[1]/div/table/tr[1]/td[4]').click()
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-16-generic x86_64)
+
+Traceback (most recent call last):
+  File "auto.py", line 21, in <module>
+    driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/di'
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/gaon/.local/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.18.0-17-generic x86_64)
+
