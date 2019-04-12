@@ -1,2 +1,3 @@
-cd /home/gaon/PycharmProjects/autoExtend/venv
+cd /home/gaon/nothing/nothing
+
 python3 auto.py

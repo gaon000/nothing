@@ -1,7 +1,11 @@
 from selenium import webdriver
-import pyautogui
 import time
-driver = webdriver.Chrome("/home/gaon/Downloads/chromedriver")
+from pyvirtualdisplay import Display
+display = Display(visible=0, size=(800, 800))  
+display.start()
+driver = webdriver.Chrome("/home/gaon/chromedriver/chromedriver")
+
+
 
 driver.implicitly_wait(3)
 driver.get('https://static.dms.istruly.sexy/')
